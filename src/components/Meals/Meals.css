@@ -1,0 +1,13 @@
+
+.meals{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.meals-container{
+    margin: 0 20px 0 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
